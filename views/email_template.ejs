@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspirational Quotes Email</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Add custom CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .quote {
+            font-size: 20px;
+            font-style: italic;
+            margin: 20px 0;
+        }
+
+        .author {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .btn {
+            background-color: #007BFF;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Inspirational Quote of the Day</h1>
+        <div class="quote">
+            "<%= quote.quote %>"
+        </div>
+        <div class="author">
+            - <%= quote.author %>
+        </div>
+        <p>Start your day with a dose of inspiration! Remember that you have the power to achieve your dreams.</p>
+        <a href="#" style="background-color: aquamarine;">Discover More Quotes</a>
+    </div>
+</body>
+
+</html>
