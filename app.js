@@ -50,7 +50,7 @@ app.post('/sendmail', async (req, res) => {
   }
 })
 
-app.listen(3000, 'localhost', (err) => {
+app.listen(10000, '0.0.0.0', (err) => {
   if (!err)
     console.log('listening');
   else
